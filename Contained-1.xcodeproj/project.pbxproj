@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F51B48AD227784520011B0CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B48AC227784520011B0CB /* AppDelegate.swift */; };
-		F51B48AF227784520011B0CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B48AE227784520011B0CB /* ViewController.swift */; };
 		F51B48B2227784520011B0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51B48B0227784520011B0CB /* Main.storyboard */; };
 		F51B48B4227784530011B0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51B48B3227784530011B0CB /* Assets.xcassets */; };
 		F51B48B7227784530011B0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51B48B5227784530011B0CB /* LaunchScreen.storyboard */; };
+		F51B48BF227784DB0011B0CB /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51B48BE227784DB0011B0CB /* Crab.xcassets */; };
+		F51B48C1227784FA0011B0CB /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B48C0227784FA0011B0CB /* SKSpriteNode+Utility.swift */; };
+		F51B48C32277851B0011B0CB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B48C22277851B0011B0CB /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F51B48A9227784520011B0CB /* Contained-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contained-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51B48AC227784520011B0CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F51B48AE227784520011B0CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F51B48B1227784520011B0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F51B48B3227784530011B0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51B48B6227784530011B0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F51B48B8227784530011B0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51B48BE227784DB0011B0CB /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Crab.xcassets; path = ../../Contained/Crab.xcassets; sourceTree = "<group>"; };
+		F51B48C0227784FA0011B0CB /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKSpriteNode+Utility.swift"; path = "../../Contained/SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
+		F51B48C22277851B0011B0CB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				F51B48AC227784520011B0CB /* AppDelegate.swift */,
-				F51B48AE227784520011B0CB /* ViewController.swift */,
+				F51B48C0227784FA0011B0CB /* SKSpriteNode+Utility.swift */,
 				F51B48B0227784520011B0CB /* Main.storyboard */,
 				F51B48B3227784530011B0CB /* Assets.xcassets */,
+				F51B48BE227784DB0011B0CB /* Crab.xcassets */,
 				F51B48B5227784530011B0CB /* LaunchScreen.storyboard */,
 				F51B48B8227784530011B0CB /* Info.plist */,
+				F51B48C22277851B0011B0CB /* File.swift */,
 			);
 			path = "Contained-1";
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F51B48B7227784530011B0CB /* LaunchScreen.storyboard in Resources */,
+				F51B48BF227784DB0011B0CB /* Crab.xcassets in Resources */,
 				F51B48B4227784530011B0CB /* Assets.xcassets in Resources */,
 				F51B48B2227784520011B0CB /* Main.storyboard in Resources */,
 			);
@@ -135,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F51B48AF227784520011B0CB /* ViewController.swift in Sources */,
 				F51B48AD227784520011B0CB /* AppDelegate.swift in Sources */,
+				F51B48C32277851B0011B0CB /* File.swift in Sources */,
+				F51B48C1227784FA0011B0CB /* SKSpriteNode+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
