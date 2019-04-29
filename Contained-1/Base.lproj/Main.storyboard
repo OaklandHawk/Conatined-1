@@ -17,16 +17,25 @@
                     <view key="view" contentMode="scaleToFill" id="DXj-Y7-RY8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <skView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hs6-Cs-YLg" userLabel="SKView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </skView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="aPv-aS-HFR"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Play" image="game_controller" id="ZPD-n8-34Q"/>
                     <navigationItem key="navigationItem" title="Title" id="5pH-Hd-VSt"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="skView" destination="Hs6-Cs-YLg" id="pJu-1u-6rt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYn-KT-rh4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="246" y="-265"/>
+            <point key="canvasLocation" x="244.92753623188409" y="-265.17857142857144"/>
         </scene>
         <!--Title-->
         <scene sceneID="A8k-Wt-zy3">
